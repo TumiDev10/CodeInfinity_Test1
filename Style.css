@@ -1,0 +1,87 @@
+form {
+    padding: 2rem 25% 0 25%;
+}
+
+
+input[type=text], select {
+        font-family: Arial, Helvetica, sans-serif;
+        width: 100%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        display: inline-block;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box
+}
+
+input[type=Button] {
+    font-family: Arial, Helvetica, sans-serif;
+    width:49%;
+    background-color: #aa0407;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+
+input[type=Submit] {
+    font-family: Arial, Helvetica, sans-serif;
+    width:49%;
+    background-color: #aa0407;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+input[type=Submit] :hover {
+    background-color: #3d0203;
+}
+
+Button {
+    display: inline-block  
+}
+
+input[type=date] {
+        width: 100%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        display: inline-block;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box
+}
+
+img {
+    width: 800px;
+    height: 200px;
+    
+   
+    object-position: left top;
+   
+}
+
+.Header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    height:  15%;
+}
+
+h2 {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.error_box {
+    background-color: #FFCCCB;
+    border-bottom: black 2px;
+    border-right: black 2px;
+}
